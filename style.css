@@ -357,16 +357,22 @@ footer{
 
 @media (max-width: 550px){
     html{
-        font-size: 6px;
+        font-size: 8px;
+    }
+    .line{
+        width: 70%;
+    }
+    .navlist li{
+        font-size: 1.5rem;
     }
     .circle{
         width: 14%;
-        top: -6.7rem;
+        top: -4.7rem;
         left: -3rem;
     }
     .square{
-        width: 27%;
-        top: 0;
+        width: 30%;
+        top: 5%;
     }
     .star{
         width: 30%;
@@ -385,11 +391,23 @@ footer{
         width: 25%;
         top: -20%;
     }
+    .foo{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .socials, h3{
+        font-size: 2rem;
+    }
+    .mail span{
+        font-size: 1.7rem;
+    }
 }
 
-@media (max-width: 315px){
+@media (max-width: 400px){
     html{
-        font-size: 6px;
-        color: red;
+        font-size: 7px;
+    }
+    .circle{
+        top: -5.5rem;
     }
 }
