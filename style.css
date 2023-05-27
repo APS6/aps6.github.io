@@ -389,6 +389,7 @@ footer{
 
 @media (max-width: 315px){
     html{
-        font-size: 5px;
+        font-size: 6px;
+        color: red;
     }
 }
