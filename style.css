@@ -363,7 +363,7 @@ footer{
         width: 70%;
     }
     .navlist li{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .circle{
         width: 14%;
@@ -380,16 +380,16 @@ footer{
     }
     .something{
         width: 27%;
-        top: -18%;
+        top: -15%;
     }
     .stars{
         width: 25%;
-        bottom: -5%;
+        bottom: 0;
         right: 15%;
     }
     .cube{
         width: 25%;
-        top: -15%;
+        top: -10%;
     }
     .aboutp{
         font-size: 2.3rem;
