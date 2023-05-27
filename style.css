@@ -335,7 +335,13 @@ footer{
         font-size: 10px;
     }
     .line{
-        width: 80%;
+        width: 70%;
+    }
+    .logo{
+        width: 5rem;
+    }
+    .navlist li{
+        font-size: 2rem;
     }
     .circle{
         left: -3.5rem;
@@ -360,10 +366,7 @@ footer{
         font-size: 8px;
     }
     .line{
-        width: 70%;
-    }
-    .navlist li{
-        font-size: 2rem;
+        width: 67%;
     }
     .circle{
         width: 14%;
@@ -410,6 +413,9 @@ footer{
 @media (max-width: 400px){
     html{
         font-size: 7px;
+    }
+    .line{
+        width: 60%;
     }
     .headline{
         font-size: 4.5rem;
