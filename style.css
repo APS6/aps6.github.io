@@ -443,3 +443,15 @@ footer{
         font-size: 1.7rem;
     }
 }
+
+@media (min-height: 730px){
+    .something{
+        top: 0;
+    }
+    .stars{
+        bottom: 8%;
+    }
+    .cube{
+        top: 0;
+    }
+}
