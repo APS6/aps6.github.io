@@ -1,0 +1,394 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    --bg: #2C2E42;
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Playfair Display', serif;
+    --font3: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 16px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(198, 205, 214);
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg);
+    color: white;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 90%;
+    /* background-color: red; */
+    top: 0;
+    z-index: 1000;
+    margin-inline: 5%;
+    height: 12%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 3rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.line {
+    width: 85%;
+    height: 2px;
+    background-color: white;
+}
+
+.navlist {
+    list-style: none;
+    margin-bottom: -3rem;
+    gap: 5px;
+}
+
+.hero {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.headline {
+    font-family: var(--font2);
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.s {
+    position: absolute;
+}
+
+.box {
+    position: relative;
+    margin-left: -5%;
+}
+
+.circle {
+    top: -2.3rem;
+    left: -4rem;
+}
+svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.square {
+    right: 0;
+    top: 15%;
+}
+
+.star {
+    right: 20%;
+    bottom: 5%;
+}
+
+.scroll {
+    bottom: 5%;
+    left: 5%;
+}
+
+.ido {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.idothis {
+    font-size: 2.5rem;
+    width: 70%;
+    line-height: 1.4;
+}
+
+.something {
+    left: 0;
+    top: 5%;
+}
+
+.stars {
+    bottom: 8%;
+    right: 10%;
+}
+
+.skill {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.skicont{
+    width: 70%;
+}
+
+h2 {
+    font-family: var(--font3);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #DCF7FF;
+    font-size: 1.7rem;
+}
+
+.skillh {}
+
+.skillp {
+    font-size: 2.3rem;
+    margin-block: 1rem;
+    line-height: 1.4;
+}
+
+.line2 {
+    width: 100%;
+    height: 5px;
+    background-color: #BED4FF;
+    margin-top: 4rem;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-block: 1rem;
+}
+
+.cube {
+    left: 0;
+    top: -10%;
+}
+
+.mywork {
+    display: grid;
+    place-items: center;
+    gap: 5rem;
+    margin-block: 0 5rem;
+}
+
+.work {
+    width: 70%;
+}
+
+.proname {
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.work img{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.workp {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-block: 2.5rem;
+}
+
+.wfoot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.icon {
+    display: flex;
+    gap: 40px;
+    font-size: 2rem;
+}
+.workh{
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+    padding-block: 2px;
+    border-bottom: 1px solid white;
+}
+.line3{
+    height: 1px;
+    width: 70%;
+    background-color: white;
+}
+
+.about{
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+.abcont{
+    width: 70%;
+}
+
+.aboutp{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.circles{
+    left: 0;
+    bottom: -10%;
+}
+
+.square2{
+    right: 0;
+    top: 0;
+}
+
+footer{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    margin-block: 2rem 5rem;
+}
+.footerh{
+    width: 70%;
+}
+.foo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.mail h3{
+    font-weight: 400;
+    font-family: var(--font3);
+    letter-spacing: 3px;
+}
+.mail span{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 930px){
+    html{
+        font-size: 13px;
+    }
+    .idothis, .skicont, .abcont, .footerh, .foo, .workh, .work, .line3{
+        width: 80%;
+    }
+    .workh{
+        margin-left: 10%;
+    }
+    .circle{
+        width: 16%;
+        top: -3rem;
+        left: -3rem;
+    }
+    .square, .star{
+        width: 18%;
+    }
+    .something{
+        top: -5%;
+        width: 18%;
+    }
+    .stars{
+        width: 18%;
+    }
+    .cube{
+        width: 20%;
+    }
+    .circles{
+        width: 8%;
+        bottom: -22%;
+    }
+}
+
+@media (max-width: 700px){
+    html{
+        font-size: 10px;
+    }
+    .line{
+        width: 80%;
+    }
+    .circle{
+        left: -3.5rem;
+        top: -3.5rem;
+    }
+    .star{
+        bottom: 15%;
+    }
+    .ido{
+        min-height: 60vh;
+    }
+    .skill{
+        min-height: 80vh;
+    }
+    .about{
+        min-height: 60vh;
+    }
+}
+
+@media (max-width: 550px){
+    html{
+        font-size: 6px;
+    }
+    .circle{
+        width: 14%;
+        top: -6.7rem;
+        left: -3rem;
+    }
+    .square{
+        width: 27%;
+        top: 0;
+    }
+    .star{
+        width: 30%;
+
+    }
+    .something{
+        width: 27%;
+        top: -18%;
+    }
+    .stars{
+        width: 25%;
+        bottom: -5%;
+        right: 15%;
+    }
+    .cube{
+        width: 25%;
+        top: -20%;
+    }
+}
+
+@media (max-width: 315px){
+    html{
+        font-size: 5px;
+    }
+}
