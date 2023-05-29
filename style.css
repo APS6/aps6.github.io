@@ -488,3 +488,9 @@ footer{
         top: 0;
     }
 }
+
+@media (min-width: 1900px){
+    html{
+        font-size: 21px;
+    }
+}
