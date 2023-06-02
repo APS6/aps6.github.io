@@ -202,6 +202,7 @@ h2 {
 .work img{
     margin-top: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 .workp {
     font-size: 2rem;
@@ -500,6 +501,10 @@ footer{
 
 @media (min-width: 1900px){
     html{
-        font-size: 21px;
+        font-size: 28px;
+    }
+    .circle{
+        top: -.6rem;
+        left: -2.5rem;
     }
 }
