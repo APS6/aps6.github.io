@@ -113,7 +113,7 @@ svg{
 }
 
 .ido {
-    min-height: 70vh;
+    min-height: 90vh;
     display: grid;
     place-items: center;
     position: relative;
@@ -187,8 +187,8 @@ h2 {
 .mywork {
     display: grid;
     place-items: center;
-    gap: 5rem;
-    margin-block: 0 5rem;
+    gap: 10rem;
+    margin-bottom: 5rem;
 }
 
 .work {
@@ -200,7 +200,7 @@ h2 {
     letter-spacing: 3px;
 }
 .work img{
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 .workp {
@@ -228,16 +228,10 @@ h2 {
     font-size: 2rem;
 }
 .workh{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 70%;
-    margin-left: 15%;
+    margin-inline: auto;
     padding-block: 2px;
-    border-bottom: 1px solid white;
-}
-.line3{
-    height: 1px;
-    width: 70%;
-    background-color: white;
 }
 
 .about{
@@ -333,12 +327,10 @@ footer{
     html{
         font-size: 13px;
     }
-    .idothis, .skicont, .abcont, .footerh, .foo, .workh, .work, .line3{
-        width: 80%;
+    .idothis, .skicont, .abcont, .footerh, .foo, .workh, .work{
+        width: 90%;
     }
-    .workh{
-        margin-left: 10%;
-    }
+
     .circle{
         width: 16%;
         top: -3rem;
@@ -387,10 +379,16 @@ footer{
         min-height: 60vh;
     }
     .skill{
-        min-height: 80vh;
+        min-height: 82vh;
     }
     .about{
-        min-height: 60vh;
+        min-height: 50vh;
+    }
+    .skicont{
+        transform: translateY(10vh);
+    }
+    .circles{
+        display: none;
     }
 }
 
@@ -425,7 +423,8 @@ footer{
     }
     .cube{
         width: 25%;
-        top: -10%;
+        top: auto;
+        bottom: -15%;
     }
     .aboutp{
         font-size: 2.3rem;
@@ -441,6 +440,13 @@ footer{
     .mail span{
         font-size: 2rem;
     }
+    .skicont{
+        transform: translateY(0);
+    }
+    .mywork{
+        margin-bottom: 0;
+    }
+
 }
 
 @media (max-width: 400px){
@@ -461,6 +467,9 @@ footer{
     .skills{
         font-size: 1.7rem;
     }
+    .skill{
+        min-height: 70vh;
+    }
 }
 
 @media (max-width: 330px){
@@ -477,7 +486,7 @@ footer{
     }
 }
 
-@media (min-height: 730px){
+@media (min-height: 800px){
     .something{
         top: 0;
     }
