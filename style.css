@@ -11,7 +11,6 @@
     --font1: 'Montserrat', sans-serif;
     --font2: 'Playfair Display', serif;
     --font3: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
 }
 html {
     font-size: 16px;
@@ -34,6 +33,10 @@ body {
     color: white;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+}
 nav {
     position: fixed;
     display: flex;
